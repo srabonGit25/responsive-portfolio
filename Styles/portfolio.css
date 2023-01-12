@@ -259,7 +259,7 @@ input{
     }
     .btn-primary{
         display: flex;
-        gap: 20px;
+        gap: 8px;
     }
     .what-i-do-description{
           margin: 40px 0px;
@@ -277,7 +277,7 @@ input{
         margin-left: 10px;
     }
     .resume-btn{
-        margin-left: 75px;
+        margin-left: 111px;
 
     }
     .section-full{
