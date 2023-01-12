@@ -34,6 +34,7 @@ nav{
 nav li {
     list-style: none;
     margin-left: 50px;
+    font-weight: 800;
 }
 nav ul{
     display: flex;
@@ -229,7 +230,8 @@ input{
     .btn-primary{
         display: flex;
         margin-bottom: 16px;
-        gap: 0px;
+        height: 49px;
+        padding: 11px 11px
     }
     nav{
         display: flex;
@@ -239,16 +241,20 @@ input{
     }
     .nav-title{
         text-align: center;
-        margin-bottom: 60px;
-        border: 4px dotted #FD6E0A;
-        margin: 40px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        font-size: 71px;
+    }
+    nav li{
+        margin-left: 5px;
+        font-weight: 800;
     }
     nav ul{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 22px;
-        padding: 0px;
+        flex-direction: row;
+        align-items: center;
+        gap: 31px;
+        padding-right: 30px;
     }
     .btn-primary{
         display: flex;
@@ -277,7 +283,7 @@ input{
         display: flex;
         flex-direction: column;
         padding: 0px 10px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
     .section-description{
         text-align: center;
@@ -305,5 +311,14 @@ input{
     }
 }
 @media screen and (min-width:577px) and (max-width: 992px) {
-
+    img{
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+    }
+    .banner-title-first{
+        display: flex;
+        justify-content: flex-start;
+    }
 }
