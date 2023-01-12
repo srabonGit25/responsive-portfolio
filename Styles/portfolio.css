@@ -255,6 +255,7 @@ input{
         align-items: center;
         gap: 31px;
         padding-right: 30px;
+        justify-content: center;
     }
     .btn-primary{
         display: flex;
@@ -311,14 +312,5 @@ input{
     }
 }
 @media screen and (min-width:577px) and (max-width: 992px) {
-    img{
-        width: 100%;
-    }
-    .banner{
-        display: flex;
-    }
-    .banner-title-first{
-        display: flex;
-        justify-content: flex-start;
-    }
+
 }
